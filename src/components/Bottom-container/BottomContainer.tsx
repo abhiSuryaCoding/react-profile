@@ -1,10 +1,11 @@
+import Timeline from '../Timeline/Timeline';
 import './BottomContainer.css'
 
 function BottomContainer() {
     return (
         <main className="bottom-caontainer">
             <section className='px-4'>
-                <h1> Hello world</h1>
+                <Timeline></Timeline>
             </section>
         </main>
     );

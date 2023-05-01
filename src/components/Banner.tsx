@@ -6,8 +6,12 @@ import Cube from './3D-Cube/Cube';
 import { Suspense } from 'react';
 import { OrbitControls, useTexture } from "@react-three/drei";
 import BottomContainer from './Bottom-container/BottomContainer';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
+import Timeline from './Timeline/Timeline';
 
 function Banner() {
+
     return (
         <>
             <div className='banner-bg'>
@@ -31,21 +35,12 @@ function Banner() {
                     </div>
                 </div>
             </div>
-                {/* <BottomContainer></BottomContainer>
-                <BottomContainer></BottomContainer>
-                <BottomContainer></BottomContainer>
-                <BottomContainer></BottomContainer>
-                <BottomContainer></BottomContainer>
-                <BottomContainer></BottomContainer>
-                <BottomContainer></BottomContainer>
-                <BottomContainer></BottomContainer>
-                <BottomContainer></BottomContainer>
-                 */}
-                <div className='banner-bg'>
-                <BottomContainer></BottomContainer>
-                </div>
-
-
+            <section id="exp-sec">
+                <header className='sec-header text-center py-4'>
+                    <h1>Experience</h1>
+                </header>
+                <Timeline></Timeline>
+            </section>
 
         </>
     );

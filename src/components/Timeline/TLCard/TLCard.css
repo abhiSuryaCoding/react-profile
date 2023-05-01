@@ -1,0 +1,8 @@
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 6px;
+    color: #9da3a9;
+    background-color: black;
+  }

@@ -1,7 +1,9 @@
-* {
-    overflow-x: hidden;
-}
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
+*{
+  font-weight: bold!important;
+  font-family: "Anonymous Pro", monospace!important;
+}
 /* width */
 ::-webkit-scrollbar {
     width: 0px;
