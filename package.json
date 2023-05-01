@@ -2,7 +2,7 @@
   "name": "first-react-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://abhiSuryaCoding.github.io/react-profile",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "vite",

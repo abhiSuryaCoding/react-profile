@@ -12,7 +12,7 @@ function Banner() {
         <>
             <div className='banner-bg'>
                 <Navbar />
-                <div className='d-flex'>
+                <div className='d-flex responsive-size'>
                     <div className='my-auto text-center'>
                         <h1 className='main-text'>Hi, I'm <span id='name'>Abhishek Suryawanshi</span></h1>
                     </div>
