@@ -7,9 +7,9 @@ import CoverLetter from "./components/CoverLetter/CoverLetter";
 function App() {
   return (
     <Routes>
-        <Route path="*" element={<Navigate to ="/react-profile" />}/>
-        <Route path="/react-profile" element={<Banner/>}/>
-        <Route path="/cover-letter" element={<CoverLetter/>}/>
+        <Route path="*" element={<Navigate to ="/react-profile/" />}/>
+        <Route path="/react-profile/" element={<Banner/>}/>
+        <Route path="/react-profile/cover-letter" element={<CoverLetter/>}/>
     </Routes>
     
   )

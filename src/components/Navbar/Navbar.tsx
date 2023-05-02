@@ -20,7 +20,7 @@ function Navbar() {
                             <a className="nav-link" href="#exp-sec">Experience</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/cover-letter">Cover Letter</Link>
+                            <Link className="nav-link" to="/react-profile/cover-letter">Cover Letter</Link>
                         </li>
                     </ul>
                 </div>

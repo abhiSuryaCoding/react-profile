@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function SecondaryNav() {
     return (
         <>
-            <nav className="navbar  navbar-expand-lg navbar-dark bg-dark px-5">
+            <nav className="navbar  navbar-expand-lg navbar-light px-5">
                 <a className="navbar-brand mx-5 py-4" href="/">
-                    <img src="main-logo-white.png" alt="Bootstrap" width="100" />
+                    <img src="./main-logo-black.png" alt="Bootstrap" width="100" />
                 </a>
 
                 {/* Responsive */}
