@@ -1,7 +1,6 @@
 import { Canvas } from '@react-three/fiber';
 import './Banner.css'
 import Navbar from './Navbar/Navbar';
-import Skills from './Skills';
 import Cube from './3D-Cube/Cube';
 import { Suspense } from 'react';
 import { OrbitControls, useTexture } from "@react-three/drei";
@@ -13,7 +12,7 @@ import Timeline from './Timeline/Timeline';
 function Banner() {
 
     return (
-        <>
+        <main className="wrapper">
             <div className='banner-bg'>
                 <Navbar />
                 <div className='d-flex responsive-size'>
@@ -42,7 +41,7 @@ function Banner() {
                 <Timeline></Timeline>
             </section>
 
-        </>
+        </main>
     );
 }
 

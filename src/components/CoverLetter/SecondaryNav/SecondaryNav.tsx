@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function SecondaryNav() {
     return (
         <>
-            <nav className="navbar  navbar-expand-lg navbar-dark px-5">
-                <a className="navbar-brand mx-5 py-4" href="#">
+            <nav className="navbar  navbar-expand-lg navbar-dark bg-dark px-5">
+                <a className="navbar-brand mx-5 py-4" href="/">
                     <img src="main-logo-white.png" alt="Bootstrap" width="100" />
                 </a>
 
@@ -16,11 +16,11 @@ function Navbar() {
 
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link" href="#exp-sec">Experience</a>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/cover-letter">Cover Letter</Link>
+                            <a className="nav-link disabled" href="#">Disabled</a>
                         </li>
                     </ul>
                 </div>
@@ -29,4 +29,4 @@ function Navbar() {
     );
 }
 
-export default Navbar;
+export default SecondaryNav;

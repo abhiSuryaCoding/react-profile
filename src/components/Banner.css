@@ -39,6 +39,10 @@
   letter-spacing: 5px!important;
 }
 
+.wrapper {
+  overflow-x: hidden;
+}
+
 @keyframes typewriter {
   from {
     width: 0;
