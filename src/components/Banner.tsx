@@ -8,6 +8,7 @@ import BottomContainer from './Bottom-container/BottomContainer';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import Timeline from './Timeline/Timeline';
+import Testimonials from './Testimonials/Testimonials';
 
 function Banner() {
 
@@ -39,6 +40,13 @@ function Banner() {
                     <h1>Experience</h1>
                 </header>
                 <Timeline></Timeline>
+            </section>
+
+            <section id="test-sec">
+                <header className='sec-header text-center py-4'>
+                    <h1>Testimonials</h1>
+                </header>
+                <Testimonials></Testimonials>
             </section>
 
         </main>
