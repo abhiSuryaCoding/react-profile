@@ -49,7 +49,7 @@ blockquote.q-card{
     background-repeat: space no-repeat
   }
   
-  blockquote.q-card > .author{
+  /* blockquote.q-card > .author{
     color: var(--text-color-author, white);
     background-color: var(--accent-color, black);
     justify-self: end;
@@ -59,4 +59,11 @@ blockquote.q-card{
   }
   blockquote.q-card > .author::before{
     content: "- "
+  } */
+  .author{
+    justify-self: end;
+  }
+
+  .author img {
+    width: 250px;
   }

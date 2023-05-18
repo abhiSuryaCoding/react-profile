@@ -29,7 +29,9 @@ function CoverLetter() {
                                     </p>
  
                                 </div>
-                                <div className='author'>Abhishek Suryawanshi</div>
+                                <div className='author'>
+                                    <img src="./src/assets/signature.png" alt="" />
+                                </div>
                             </blockquote>
                         </div>
                         </Zoom>
